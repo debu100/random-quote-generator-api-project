@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(220.55deg, #7cf7ff 0%, #4b73ff 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+button {
+  background: linear-gradient(220.55deg, #8a88fb 0%, #d079ee 100%);
+  padding: 1rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  /* margin-top: 1.5rem; */
+}
+
+.quote {
+  margin-top: 1rem;
+  color: #f24e2b;
+  text-align: center;
+}
+
+.author {
+  margin: 1.25rem 0;
+  color: #f24e2b;
+  text-align: center;
+}
+
+@media (width<=400px) {
+  .quote,
+  .author {
+    font-size: 0.75rem;
+  }
+}
